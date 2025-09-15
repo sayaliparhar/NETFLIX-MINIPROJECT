@@ -62,6 +62,7 @@ Enabled public read access for the bucket (or added a bucket policy).
 Confirmed the website is accessible via the S3 static website URL.
 
 <p align="center"> <img width="800" alt="static website hosting" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/static%20website%20hosting.PNG?raw=true" /> </p>
+
 ### Step 4: Enable Advanced S3 Features
 
 Versioning → Enabled to track object changes and recover deleted or overwritten files.
