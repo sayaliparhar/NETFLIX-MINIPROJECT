@@ -61,7 +61,7 @@ Enabled public read access for the bucket (or added a bucket policy).
 
 Confirmed the website is accessible via the S3 static website URL.
 
-<p align="center"> <img width="800" alt="static website hosting" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/static%20website%20hosting.PNG?raw=true" /> </p>
+<p align="center"> <img width="700" alt="static website hosting" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/static%20website%20hosting.PNG?raw=true" /> </p>
 
 ### Step 4: Enable Advanced S3 Features
 Versioning → Enabled to track object changes and recover deleted or overwritten files.
@@ -76,13 +76,13 @@ Replication → Configured cross-region replication for disaster recovery.
 <br><br>
 
 Transfer Acceleration → Enabled for fast uploads and downloads globally.
-<p align="center"> <img width="800" alt="Transfer Acceleration" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/Transfer%20Accelaration.PNG?raw=true" /> </p>
+<p align="center"> <img width="700" alt="Transfer Acceleration" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/Transfer%20Accelaration.PNG?raw=true" /> </p>
 
 <br><br>
 
 Cross-Region Replication (CRR) → Ensures data is automatically copied to another AWS region for disaster recovery and global availability.
 
-<p align="center"> <img width="800" alt="Cross-region-replication" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/cross%20region%20replication.PNG?raw=true" /> </p>
+<p align="center"> <img width="700" alt="Cross-region-replication" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/cross%20region%20replication.PNG?raw=true" /> </p>
 
 
 
@@ -95,19 +95,19 @@ Confirmed all images and trailers load correctly.
 
 Checked S3 endpoint and accelerated transfers.
 
-<p align="center"> <img width="800" alt="Home Page" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/index%20page%20(1).png?raw=true" /> </p>
+<p align="center"> <img width="700" alt="Home Page" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/index%20page%20(1).png?raw=true" /> </p>
 
 <br><br>
 
-<p align="center"> <img width="800" alt="Trailers Page" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/Trailer%20Page.png?raw=true" /> </p>
+<p align="center"> <img width="700" alt="Trailers Page" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/Trailer%20Page.png?raw=true" /> </p>
 
 <br><br>
 
-<p align="center"> <img width="800" alt="Error Page" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/Error%20page.png?raw=true" /> </p>
+<p align="center"> <img width="700" alt="Error Page" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/Error%20page.png?raw=true" /> </p>
 
 <br><br>
 
-<p align="center"> <img width="800" alt="Contact Page" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/Contact%20page.png?raw=true" /> </p>
+<p align="center"> <img width="700" alt="Contact Page" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/Contact%20page.png?raw=true" /> </p>
 
 ## 🔧 Challenges & Lessons Learned
 
