@@ -64,28 +64,28 @@ Confirmed the website is accessible via the S3 static website URL.
 <p align="center"> <img width="800" alt="static website hosting" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/static%20website%20hosting.PNG?raw=true" /> </p>
 
 ### Step 4: Enable Advanced S3 Features
-
 Versioning → Enabled to track object changes and recover deleted or overwritten files.
+<p align="center"> <img width="700" alt="Versioning" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/versioning.PNG?raw=true" /> </p>
+
+<br><br>
 
 Replication → Configured cross-region replication for disaster recovery.
 
+<p align="center"> <img width="700" alt="Replication" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/replication.PNG?raw=true" /> </p>
+
+<br><br>
+
 Transfer Acceleration → Enabled for fast uploads and downloads globally.
-
-Cross-Region Replication (CRR) → Ensures data is automatically copied to another AWS region for disaster recovery and global availability.
-
-<p align="center"> <img width="800" alt="Versioning" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/versioning.PNG?raw=true" /> </p>
-
-<br><br>
-
-<p align="center"> <img width="800" alt="Replication" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/replication.PNG?raw=true" /> </p>
-
-<br><br>
-
 <p align="center"> <img width="800" alt="Transfer Acceleration" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/Transfer%20Accelaration.PNG?raw=true" /> </p>
 
 <br><br>
 
+Cross-Region Replication (CRR) → Ensures data is automatically copied to another AWS region for disaster recovery and global availability.
+
 <p align="center"> <img width="800" alt="Cross-region-replication" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/cross%20region%20replication.PNG?raw=true" /> </p>
+
+
+
 
 ### Step 5: Test Website
 
