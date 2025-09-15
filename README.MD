@@ -61,6 +61,7 @@ Enabled public read access for the bucket (or added a bucket policy).
 
 Confirmed the website is accessible via the S3 static website URL.
 
+<p align="center"> <img width="800" alt="static website hosting" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/static%20website%20hosting.PNG?raw=true" /> </p>
 ### Step 4: Enable Advanced S3 Features
 
 Versioning → Enabled to track object changes and recover deleted or overwritten files.
@@ -69,6 +70,22 @@ Replication → Configured cross-region replication for disaster recovery.
 
 Transfer Acceleration → Enabled for fast uploads and downloads globally.
 
+Cross-Region Replication (CRR) → Ensures data is automatically copied to another AWS region for disaster recovery and global availability.
+
+<p align="center"> <img width="800" alt="Versioning" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/versioning.PNG?raw=true" /> </p>
+
+<br><br>
+
+<p align="center"> <img width="800" alt="Replication" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/replication.PNG?raw=true" /> </p>
+
+<br><br>
+
+<p align="center"> <img width="800" alt="Transfer Acceleration" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/Transfer%20Accelaration.PNG?raw=true" /> </p>
+
+<br><br>
+
+<p align="center"> <img width="800" alt="Cross-region-replication" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/cross%20region%20replication.PNG?raw=true" /> </p>
+
 ### Step 5: Test Website
 
 Verified Home Page, Trailer Page, Contact Page, and Error Page.
@@ -76,6 +93,20 @@ Verified Home Page, Trailer Page, Contact Page, and Error Page.
 Confirmed all images and trailers load correctly.
 
 Checked S3 endpoint and accelerated transfers.
+
+<p align="center"> <img width="800" alt="Home Page" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/index%20page%20(1).png?raw=true" /> </p>
+
+<br><br>
+
+<p align="center"> <img width="800" alt="Trailers Page" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/Trailer%20Page.png?raw=true" /> </p>
+
+<br><br>
+
+<p align="center"> <img width="800" alt="Error Page" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/Error%20page.png?raw=true" /> </p>
+
+<br><br>
+
+<p align="center"> <img width="800" alt="Contact Page" src="https://github.com/sayaliparhar/NETFLIX-MINIPROJECT/blob/main/TestCases/Contact%20page.png?raw=true" /> </p>
 
 ## 🔧 Challenges & Lessons Learned
 
@@ -95,25 +126,19 @@ Checked S3 endpoint and accelerated transfers.
 
 ## 🔗 Demo
 
-**🌐 Website Access: S3 Static Website URL**
+**🌐 Website Access:** http://miniprojectfors3.s3-website.ap-south-1.amazonaws.com
+
+ **Note:** The S3 bucket used for this static website has been deleted after the demo.  
 
 **📂 Project Code: All HTML, CSS, JS, and image files are included in this repository.**
 
-<p align="center"> <img width="800" alt="Home Page" src="path-to-your-screenshot1.png" /> </p>
 
-<br><br>
+## 🚀 Future Enhancements
 
-<p align="center"> <img width="800" alt="Trailers Page" src="path-to-your-screenshot2.png" /> </p>
+**Integrate CloudFront for faster content delivery and HTTPS.**
 
-<br><br>
+**Add a custom domain via Route 53.**
 
-<p align="center"> <img width="800" alt="Error Page" src="path-to-your-screenshot3.png" /> </p>
-🚀 Future Enhancements
+**Improve responsive design for mobile and tablet users.**
 
-Integrate CloudFront for faster content delivery and HTTPS.
-
-Add a custom domain via Route 53.
-
-Improve responsive design for mobile and tablet users.
-
-Implement CI/CD pipeline for automated updates to S3.
+**Implement CI/CD pipeline for automated updates to S3.**
